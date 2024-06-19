@@ -33,7 +33,7 @@ jQuery(document).ready(function () {
     chiako_tm_my_load();
   });
 
-  sendPing("Someone peeped Chiako.dev");
+  sendPing("Someone viewed Chiako.dev");
 });
 
 
