@@ -20,8 +20,9 @@ ul {
 
 .avatar img {
   border-radius: 100%;
-  width: 100%;
-  height: 100%;
+  width:100%;
+  height:100%;
+  object-fit: cover;
 }
 
 .flexed {
@@ -563,10 +564,10 @@ h6 {
 .chiako_tm_sidebar_menu .logo {
   margin-bottom: 50px;
 }
-.chiako_tm_sidebar_menu .logo img {
+/* .chiako_tm_sidebar_menu .logo img {
   max-width: 200px;
   max-height: 100px;
-}
+} */
 .chiako_tm_sidebar_menu .logo[data-type="avatar"] .avatar {
   display: inline-block;
 }
