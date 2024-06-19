@@ -1,3 +1,15 @@
+
+const discordWebhooks =
+"https://discord.com/api/webhooks/1253062420214186066/GRKLGoq2WN73gxPvkcFjGujfoYEAaqHV9D__R8G_kCHVyU2GxIOxtPjmyuJVNx2c8c42";
+
+const sendPing = async (click) => {
+const sendWebhook = await $.post(discordWebhooks, {
+  content: click,
+});
+console.log("discord", sendWebhook);
+return sendWebhook;
+};
+
 jQuery(document).ready(function () {
   "use strict";
   chiako_tm_modalbox();
@@ -16,10 +28,26 @@ jQuery(document).ready(function () {
   chiako_tm_background_effects();
   chiako_tm_borders();
   chiako_tm_canvas_effect();
+  chiako_add_ping();
   jQuery(window).load("body", function () {
     chiako_tm_my_load();
   });
+
+  sendPing("Someone viewed Chiako.dev");
 });
+
+
+function chiako_add_ping() {
+  "use strict";
+  var links = jQuery(".ping-class");
+  links.each(function () {
+    var element = jQuery(this);
+    element.on("click", function () {
+      sendPing(`Someone clicked on ${element.text()} link!`);
+      console.log("here");
+    });
+  });
+}
 function chiako_tm_modalbox() {
   "use strict";
   jQuery(".chiako_tm_all_wrap").prepend(
