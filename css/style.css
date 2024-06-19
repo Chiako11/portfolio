@@ -8,6 +8,11 @@ ul {
   padding: 0;
 }
 
+.green {
+  color: #87ab95;
+
+}
+
 .flexed {
   display: flex;
   justify-content: space-between;
@@ -54,7 +59,7 @@ img.svg {
   height: 15px;
 }
 ::-webkit-input-placeholder {
-  color: #868a9b;
+  color: #869b8e;
 }
 :-moz-placeholder {
   color: #868a9b;
@@ -668,12 +673,12 @@ h6 {
   margin: 0 auto;
   margin-bottom: 30px;
 }
-.chiako_tm_about {
+.chiako_tm_experience {
   width: 100%;
 }
-.chiako_tm_about .biography {
+ .biography {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 58px 50px 50px;
   position: relative;
   margin-top: 20px;
@@ -687,34 +692,34 @@ h6 {
   font-size: 15px;
   text-transform: uppercase;
   display: inline-block;
-  background-color: #efefef;
+  background-color: #87ab95;
   padding: 10px 30px 9px;
 }
-.chiako_tm_about .biography .text {
+ .biography .text {
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #87ab95;
   padding-bottom: 42px;
   margin-bottom: 39px;
 }
-.chiako_tm_about .biography .details {
+.biography .details {
   width: 100%;
   margin-bottom: 37px;
 }
-.chiako_tm_about .biography .details ul {
+.biography .details ul {
   display: flex;
   flex-wrap: wrap;
   margin-left: -20px;
 }
-.chiako_tm_about .biography .details ul li {
+.biography .details ul li {
   width: 50%;
   padding-left: 20px;
   margin-bottom: 5px;
 }
-.chiako_tm_about .biography .details ul li span:first-child {
+.biography .details ul li span:first-child {
   min-width: 120px;
   display: inline-block;
 }
-.chiako_tm_about .biography .details ul li a {
+.biography .details ul li a {
   color: #000;
 }
 .chiako_tm_button {
@@ -763,7 +768,7 @@ h6 {
   bottom: 0;
   left: 0;
   width: 60px;
-  background-color: #999;
+  background-color: #999999;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -773,15 +778,15 @@ h6 {
 .chiako_tm_button a:hover:before {
   width: 100%;
 }
-.chiako_tm_about .skillbox {
+ .skillbox {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 65px 50px 50px;
   position: relative;
   margin-top: 20px;
   margin-bottom: 69px;
 }
-.chiako_tm_about .skillbox:before {
+ .skillbox:before {
   position: absolute;
   content: "";
   width: 1px;
@@ -789,26 +794,26 @@ h6 {
   left: 50%;
   transform: translateX(-50%);
   top: 0;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #87ab95;
 }
-.chiako_tm_about .skillbox .wrapper {
+.skillbox .wrapper {
   width: 100%;
   display: flex;
 }
-.chiako_tm_about .skillbox .left {
+ .skillbox .left {
   width: 50%;
   padding-right: 50px;
 }
-.chiako_tm_about .skillbox .right {
+ .skillbox .right {
   width: 50%;
   padding-left: 50px;
   position: relative;
 }
-.chiako_tm_about .skillbox .skills_title {
+ .skillbox .skills_title {
   width: 100%;
   margin-bottom: 33px;
 }
-.chiako_tm_about .skillbox .skills_title h3 {
+ .skillbox .skills_title h3 {
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -854,7 +859,7 @@ h6 {
   transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .progress_inner .background {
-  background: rgba(0, 0, 0, 0.1);
+  background: #87ab95;
   width: 100%;
   min-width: 100%;
   position: relative;
@@ -904,33 +909,33 @@ h6 {
     width: 100%;
   }
 }
-.chiako_tm_about .experience {
+.chiako_tm_experience .experience {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 64px 50px 41px;
   position: relative;
   margin-top: 20px;
   margin-bottom: 69px;
 }
 
-.chiako_tm_about .experience .wrapper {
+.chiako_tm_experience .experience .wrapper {
   width: 100%;
   display: flex;
 }
-.chiako_tm_about .experience .left {
+.chiako_tm_experience .experience .left {
   width: 50%;
   padding-right: 50px;
 }
-.chiako_tm_about .experience .right {
+.chiako_tm_experience .experience .right {
   width: 50%;
   padding-left: 50px;
   position: relative;
 }
-.chiako_tm_about .experience .experience_title {
+.chiako_tm_experience .experience .experience_title {
   width: 100%;
   margin-bottom: 40px;
 }
-.chiako_tm_about .experience .experience_title h3 {
+.chiako_tm_experience .experience .experience_title h3 {
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -948,7 +953,7 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #87ab95;
   padding-bottom: 21px;
 }
 .chiako_tm_experience_list li:last-child {
@@ -967,12 +972,12 @@ h6 {
 .chiako_tm_experience_list .date span {
   font-size: 14px;
   display: inline-block;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 4px 15px;
 }
 .chiako_tm_testimonials {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 57px 50px 50px;
   position: relative;
   margin-top: 20px;
@@ -1078,7 +1083,7 @@ h6 {
 }
 .chiako_tm_services .services_list {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 70px 50px 0;
   position: relative;
   margin-top: 20px;
@@ -1098,7 +1103,7 @@ h6 {
   height: 100%;
   position: relative;
   padding: 45px 50px 42px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
 }
 .chiako_tm_services .services_list .list_inner .svg {
   width: 40px;
@@ -1119,7 +1124,7 @@ h6 {
 }
 .chiako_tm_services .services_list .list {
   width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #87ab95;
   margin-top: 29px;
   padding-top: 25px;
 }
@@ -1143,33 +1148,33 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
 }
-.chiako_tm_portfolio {
+.chiako_tm_skills {
   width: 100%;
 }
-.chiako_tm_portfolio .portfolio_list {
+.chiako_tm_skills .skills_list {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 70px 50px 0;
   position: relative;
   margin-top: 20px;
 }
-.chiako_tm_portfolio .portfolio_filter {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.chiako_tm_skills .skills_filter {
+  border-bottom: 1px solid #87ab95;
   padding-bottom: 7px;
   display: inline-block;
   margin-bottom: 40px;
 }
-.chiako_tm_portfolio .portfolio_filter ul li {
+.chiako_tm_skills .skills_filter ul li {
   display: inline-block;
   position: relative;
   margin-right: 11px;
   padding-right: 20px;
 }
-.chiako_tm_portfolio .portfolio_filter ul li:last-child {
+.chiako_tm_skills .skills_filter ul li:last-child {
   margin-right: 0;
   padding-right: 0;
 }
-.chiako_tm_portfolio .portfolio_filter ul li:after {
+.chiako_tm_skills .skills_filter ul li:after {
   position: absolute;
   content: "";
   width: 6px;
@@ -1180,24 +1185,24 @@ h6 {
   transform: translateY(-50%);
   border-radius: 100%;
 }
-.chiako_tm_portfolio .portfolio_filter ul li:last-child:after {
+.chiako_tm_skills .skills_filter ul li:last-child:after {
   display: none;
 }
-.chiako_tm_portfolio .portfolio_filter ul li a {
+.chiako_tm_skills .skills_filter ul li a {
   color: #000;
 }
-.chiako_tm_portfolio .portfolio_item {
+.chiako_tm_skills .skills_item {
   margin: 0 0 0 -50px;
   display: flex;
   flex-wrap: wrap;
 }
-.chiako_tm_portfolio .portfolio_item li {
+.chiako_tm_skills .skills_item li {
   margin-bottom: 50px;
   float: left;
   width: 50%;
   padding-left: 50px;
 }
-.chiako_tm_portfolio .portfolio_item li .inner {
+.chiako_tm_skills .skills_item li .inner {
   width: 100%;
   height: 100%;
   height: auto;
@@ -1206,11 +1211,11 @@ h6 {
   overflow: hidden;
   position: relative;
 }
-.chiako_tm_portfolio .portfolio_item li .inner img {
+.chiako_tm_skills .skills_item li .inner img {
   opacity: 0;
   min-width: 100%;
 }
-.chiako_tm_portfolio .portfolio_item li .inner .abs_image {
+.chiako_tm_skills .skills_item li .inner .abs_image {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1225,10 +1230,10 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.chiako_tm_portfolio .portfolio_item li .inner:hover .abs_image {
+.chiako_tm_skills .skills_item li .inner:hover .abs_image {
   transform: scale(1.1) translateZ(0);
 }
-.chiako_tm_portfolio_titles {
+.chiako_tm_skills_titles {
   white-space: nowrap;
   background: #fff;
   font-size: 15px;
@@ -1240,11 +1245,11 @@ h6 {
   opacity: 0;
   visibility: hidden;
 }
-.chiako_tm_portfolio_titles.visible {
+.chiako_tm_skills_titles.visible {
   opacity: 1;
   visibility: visible;
 }
-.chiako_tm_portfolio_titles .work__cat {
+.chiako_tm_skills_titles .work__cat {
   position: absolute;
   background: #fff;
   top: 100%;
@@ -1263,7 +1268,7 @@ h6 {
 }
 .chiako_tm_news .news_list {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 70px 50px 50px;
   position: relative;
   margin-top: 20px;
@@ -1272,7 +1277,7 @@ h6 {
   width: 100%;
   margin-bottom: 50px;
   padding-bottom: 50px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #87ab95;
 }
 .chiako_tm_news .news_list ul li:last-child {
   border-bottom: none;
@@ -1337,7 +1342,7 @@ h6 {
 }
 .chiako_tm_news .news_list .meta {
   display: inline-block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #87ab95;
   padding-bottom: 7px;
   margin-bottom: 25px;
 }
@@ -1425,7 +1430,7 @@ h6 {
 }
 .chiako_tm_contact .contact_inner {
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 70px 50px 50px;
   position: relative;
   margin-top: 20px;
@@ -1449,7 +1454,7 @@ h6 {
   height: 50px;
   padding: 5px 20px;
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   font-family: var(--font-syne);
   font-size: 15px;
 }
@@ -1466,7 +1471,7 @@ h6 {
   padding: 20px;
   height: 120px;
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   resize: none;
   font-family: var(--font-syne);
   font-size: 15px;
@@ -1483,7 +1488,7 @@ h6 {
   height: 50px;
   line-height: 50px;
   color: #000;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   border-right: none;
   padding: 0 30px;
   user-select: none;
@@ -1493,7 +1498,7 @@ h6 {
   height: 50px;
   line-height: 50px;
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   padding: 0 20px;
   font-family: var(--font-syne);
   font-size: 15px;
@@ -1566,7 +1571,7 @@ h6 {
   width: 1px;
   height: 100%;
   top: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: #87ab95;
   overflow: hidden;
 }
 .lines .line:after {
@@ -1822,7 +1827,7 @@ body.intro {
 .chiako_tm_intro .hero {
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #87ab95;
   padding: 130px 20px;
 }
 .chiako_tm_intro .hero img {
@@ -1852,7 +1857,7 @@ body.intro {
 .chiako_tm_intro .demos ul li .list_inner {
   width: 100%;
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -1867,7 +1872,7 @@ body.intro {
 }
 .chiako_tm_intro .demos .details {
   width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #87ab95;
   padding: 20px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1897,7 +1902,7 @@ body.intro {
 }
 .chiako_tm_intro .features_wrapper {
   width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #87ab95;
   margin-bottom: 50px;
 }
 .chiako_tm_intro .features_wrapper .f_inner {
@@ -1927,7 +1932,7 @@ body.intro {
 .chiako_tm_intro .features_wrapper ul li .list_inner {
   width: 100%;
   height: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #87ab95;
   text-align: center;
   padding: 50px;
 }
@@ -1946,7 +1951,7 @@ body.intro {
 }
 .chiako_tm_intro .copyright {
   width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #87ab95;
   padding: 60px 20px;
   text-align: center;
 }
@@ -2035,57 +2040,57 @@ body.intro {
   .chiako_tm_home .animateText span {
     font-size: 16px;
   }
-  .chiako_tm_about .biography .details ul {
+  .chiako_tm_experience .biography .details ul {
     margin: 0;
   }
-  .chiako_tm_about .biography .details ul li {
+  .chiako_tm_experience .biography .details ul li {
     width: 100%;
     padding-left: 0;
   }
-  .chiako_tm_about .biography {
+  .chiako_tm_experience .biography {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .chiako_tm_about .biography .details ul li span:first-child {
+  .chiako_tm_experience .biography .details ul li span:first-child {
     min-width: auto;
     padding-right: 5px;
   }
-  .chiako_tm_about .skillbox {
+  .chiako_tm_experience .skillbox {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .chiako_tm_about .skillbox .wrapper {
+  .chiako_tm_experience .skillbox .wrapper {
     flex-direction: column;
   }
-  .chiako_tm_about .skillbox .left {
+  .chiako_tm_experience .skillbox .left {
     width: 100%;
     padding-right: 0;
     margin-bottom: 50px;
   }
-  .chiako_tm_about .skillbox .right {
+  .chiako_tm_experience .skillbox .right {
     width: 100%;
     padding-left: 0;
   }
-  .chiako_tm_about .skillbox:before {
+  .chiako_tm_experience .skillbox:before {
     display: none;
   }
-  .chiako_tm_about .experience {
+  .chiako_tm_experience .experience {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .chiako_tm_about .experience .left {
+  .chiako_tm_experience .experience .left {
     padding-right: 0;
     width: 100%;
     margin-bottom: 50px;
   }
-  .chiako_tm_about .experience .right {
+  .chiako_tm_experience .experience .right {
     padding-left: 0;
     width: 100%;
   }
-  .chiako_tm_about .experience:before {
+  .chiako_tm_experience .experience:before {
     display: none;
   }
-  .chiako_tm_about .experience .wrapper {
+  .chiako_tm_experience .experience .wrapper {
     flex-direction: column;
   }
   .chiako_tm_testimonials {
@@ -2096,7 +2101,7 @@ body.intro {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .chiako_tm_portfolio .portfolio_list {
+  .chiako_tm_skills .skills_list {
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -2118,21 +2123,21 @@ body.intro {
     padding-left: 0;
     margin-bottom: 25px;
   }
-  .chiako_tm_portfolio .portfolio_item {
+  .chiako_tm_skills .skills_item {
     margin: 0;
   }
-  .chiako_tm_portfolio .portfolio_item li {
+  .chiako_tm_skills .skills_item li {
     width: 100%;
     padding-left: 0;
     margin-bottom: 25px;
   }
-  .chiako_tm_portfolio .portfolio_filter {
+  .chiako_tm_skills .skills_filter {
     border-bottom: none;
   }
-  .chiako_tm_portfolio .portfolio_filter ul li:after {
+  .chiako_tm_skills .skills_filter ul li:after {
     display: none;
   }
-  .chiako_tm_portfolio .portfolio_filter ul li {
+  .chiako_tm_skills .skills_filter ul li {
     padding-right: 0;
   }
   .chiako_tm_news .news_list ul li .list_inner {
