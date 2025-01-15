@@ -36,6 +36,14 @@ jQuery(document).ready(function () {
   sendPing("Someone viewed Chiako.dev");
 });
 
+// Ensure the mobile menu links are clickable
+jQuery(".chiako_tm_mobile_menu .menu_list a").on("click", function () {
+  var href = jQuery(this).attr("href");
+  if (href && href.endsWith(".pdf")) {
+    window.open(href, "_blank");
+  }
+});
+
 
 function chiako_add_ping() {
   "use strict";
